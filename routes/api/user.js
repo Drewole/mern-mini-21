@@ -4,6 +4,6 @@ const userController = require("../../controllers/userController");
 // Matches with "/api/books"
 router.route("/")
   .get(userController.findAll)
-  .post(userController.create);
+  // .post(userController.create);
 
 module.exports = router;
